@@ -4,45 +4,22 @@
 		<title>
 			Bryan Personal Website
 		</title>
-        <style>
-            p {
-                color: red;
-            }
-            a {
-                color: blue;
-            }
-        </style>
+        
+        <link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<h1>
-			This is my first web page
-		</h1>
+		<h1> This is my first web page </h1>
 
+		<h2> What is this? </h2>
+        
+        <p> A simple page put together using HTML </p>
 
-		<h2>
-			What is this?
-		</h2>
-
-
-		<p>
-			A simple page put together using HTML
-		</p>
-
-
-		<h2>
-			Why this is?
-		</h2>
-
+		<h2>			Why this is? </h2>
 
 		<ul>
-			<li>
-				To learn 
-				<em> HTML</em> 
-			</li>
+			<li>				To learn <em> HTML</em> </li>
 
-
-			<li>
-				To show off
+			<li>				To show off
 				<ol>
 					<li>To my boss </li>
 					<li>To my friends </li>
@@ -54,20 +31,14 @@
 				</ol>		 
 			</li>
 
-
-			<li>
-				Because I've fallen in love with my computer &&amp; want to give her some HTML loving.
-			</li>	
+			<li>Because I've fallen in love with my computer &&amp; want to give her some HTML loving</li>	
 		</ul>
-
 
 		<p>
 			<em><strong>Yes, that really </strong></em> 
-			<em> is </em> 
-			exciting.
+			<em> is </em> exciting.
 			<br>
-			<strong> Warning: </strong> 
-			level of excitement 
+			<strong> Warning: </strong> level of excitement 
 			<br> 
 			may cause head to explode
 		</p>
@@ -92,19 +63,27 @@
 			</tr>
 		</table>
 
-		<form>
-			<p> Name:  </p>
-			<p> <input type="text" name="value" value="Your name"> </p>
-			
-			<p> Species: </p>
-			<p> <input name="species">
+        <form action="contactus.php" method="post">
 
-			<p> Comments: </p>
-			<p> <input name"comments">
-		</form>
+            <p>Name:</p>
+            <p><input type="text" name="name" value="Your name"></p>
 
-		<button>
-		</button>
+            <p>Species:</p>
+            <p><input name="species"></p>
+            <!-- remember: 'type="text"' isn't actually necessary -->
+
+            <p>Comments: </p>
+            <p><textarea name="comments" rows="5" cols="20">Your comments</textarea></p>
+
+            <p>Are you:</p>
+            <p><input type="radio" name="areyou" value="male"> Male</p>
+            <p><input type="radio" name="areyou" value="female"> Female</p>
+            <p><input type="radio" name="areyou" value="hermaphrodite"> An hermaphrodite</p>
+            <p><input type="radio" name="areyou" value="asexual"> Asexual</p>
+
+            <p><input type="submit"></p>
+
+        </form>
 		<h2> Checkout my Github Account: </h2>
 		<p> <a href="http://www.github.com/ZukiGA"> 
 			<img 
