@@ -1,7 +1,46 @@
+body {
+    font-size: 14px;
+    color: navy;
+    background: #ffdbbd
+}
+
+h1 {
+    font-family: impact;
+    color: white;
+    background: #8d8dd6;
+    font-size: 4em;
+    text-align: center;
+    border-color: black;
+}
+
 p {
+    font-family: arial
     color: red;
+    font-size: 1em;
+    letter-spacing: 0.3em;
+    word-spacing: 1em;
+    line-height: 1.5;
 }
 
 a {
     color: blue;
+    text-decoration: none
+}
+
+h2 {
+    font-size: 1.5em
+}
+
+strong {
+    font-style: italic;
+    text-transform: uppercase;
+    color: red;
+}
+
+table {
+    background-color: aquamarine;
+}
+
+input {
+    background-color: #dadada
 }
